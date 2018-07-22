@@ -1,0 +1,248 @@
+$def with (page)
+<!--var css: static/css/bootstrap.min.css static/css/mdb.min.css static/css/font-awesome.min.css-->
+<!--static/css/popper.css-->
+<!--static/css/bootstrap-material-design.min.css-->
+<!--var js: static/js/bootstrap.js static/js/mdb.min.js static/js/myscript.js static/js/sidebar.js-->
+<!--static/js/popper.min.js-->
+<!--static/js/material.min.js-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Otaku Palace</title>
+    <script type="text/javascript" src="static/js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="static/css/bootstrap.css"/>
+    <link rel="stylesheet" href="static/css/mdb.min.css"/>
+    <link rel="stylesheet" href="static/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="static/css/all.css">
+    <style>
+#HomeExt{
+    margin-left:5%
+    }
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 90px;
+    left: 0;
+    <!--background-color: #111;-->
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #33B5E5;
+}
+
+.main {
+    margin-left: 220px; /* Same as the width of the sidenav */
+}
+.gvsFixTab{
+    margin-left: 15px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.gvsHover i:hover{
+    color:#33B5E5;
+}
+/*horizontal tabs for profile*/
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 10px;
+    transition: 0.3s;
+    font-size: 17px;
+    color:white;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: black;
+    color:white;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: black;
+    color:white;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+/*horizontal tabs for profile*/
+/*vertical tabs for profile about*/
+/* Style the tab */
+.tabAbout {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tabAbout button {
+    display: block;
+    background-color: inherit;
+    color: white;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tabAbout button:hover {
+    background-color: black;
+    color:white;
+}
+
+/* Create an active/current "tab button" class */
+.tabAbout button.active {
+    background-color: black;
+}
+
+/* Style the tab content */
+.tabcontentAbout {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+/*vertical tabs for profile about*/
+/*vertical tabs for settings*/
+/* Style the tab */
+.tabSettings {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 20%;
+    height: auto;
+}
+
+/* Style the buttons inside the tab */
+.tabSettings button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tabSettings button:hover {
+    background-color: black;
+    color:white;
+}
+
+/* Create an active/current "tab button" class */
+.tabSettings button.active {
+    background-color: black;
+    color:white
+}
+
+/* Style the tab content */
+.tabcontentSettings {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    border-right-width:0px;
+    width: 50%;
+    border-left: none;
+    height: auto;
+}
+/*vertical tabs for settings*/
+    </style>
+</head>
+<body>
+    <div id="app">
+
+        <nav class="navbar navbar-expand bg-info navbar-dark fixed-top">
+            <div class="container-fluid">
+                <div class="nav-brand" style="align-items: center;justify-content: center;display: flex;">
+                    <img src="/static/css/images/otakuicon.jpg" width="40" height="40" class="d-inline-block align-top rounded" alt="">
+                    <a class="text-white">&nbsp;&nbsp;Otaku Palace&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                </div>
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">News Feed</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Discover</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/myProfile">Profile</a>
+                    </li>
+                </ul>
+                <div class="">
+                    $if session['user'] == None:
+                        <div class="">
+                            <a href="/userLogin" class="btn btn-success">Sign In</a>
+                            <a href="/register" class="btn btn-raised btn-dark">Register</a>&nbsp;&nbsp;
+                        </div>
+                    $else:
+                        <strong class="text-white">signed in as <u>$session['user']['username']</u></strong>
+                        <a id="userLogout" class="btn btn-dark">Sign Out</a>
+                </div>
+
+            </div>
+        </nav>
+
+        <div id="HomeExt">
+            $:page
+        </div>
+
+        <script src="static/js/bootstrap.min.js"></script>
+        <script src="static/js/mdb.min.js"></script>
+        <script src="static/js/myscript.js"></script>
+        <script src="static/js/fontawesome.js"></script>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,186 @@
+$def with (all_posts, user)
+<div class="">
+    $if session['user'] == None:
+        <br><br><br><br>
+        <h1>You Must be Logged in First</h1>
+    $else:
+        <br><br><br>
+        <div id="mySidenav" class="sidenav">
+            <div>
+                &nbsp;&nbsp;<i class="fas fa-comments fa-2x" aria-hidden="true"></i>
+                <label><a href="#">Messages</a></label>
+            </div>
+            <div>
+                &nbsp;&nbsp;<i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+                <label><a href="#">Friends</a></label>
+            </div>
+            <div>
+                &nbsp;&nbsp;<i class="fas fa-user-friends fa-2x"></i>
+                <label><a href="#">Friends</a></label>
+            </div>
+            <div>
+                &nbsp;&nbsp;<i class="far fa-bell fa-2x"></i>
+                <label><a href="#">Notifications</a></label>
+            </div>
+            <hr class="bg-primary" style="margin-left: 40px;margin-right: 40px;">
+            <div>
+                &nbsp;&nbsp;<i class="fas fa-cogs fa-2x" aria-hidden="true"></i>
+                <label><a href="/accSettings">Settings</a></label>
+            </div>
+            <div>
+                &nbsp;&nbsp;<i class="fas fa-question-circle fa-2x" aria-hidden="true"></i>
+                <label><a href="#">Help</a></label>
+            </div>
+        </div>
+        <div class="main">
+            <div class="col-md-11">
+                <div class="background-image" style="position:relative;background:url('$session['user']['background']');height:315px;display:block;">
+
+                    <div class="avatar">
+                        <img src="$session['user']['avatar']"
+                             style="display:inline-block;
+                                    position:absolute;
+                                    top:212px;
+                                    left:15px;
+                                    width: 168px;
+                                    height: 140px;
+                                    border:2px solid white;
+                                    border-radius:5px;">
+                        <h4 style="position:absolute;
+                                    font-weight:bold;
+                                    top:280px;
+                                    left:205px;
+                                    color:white;">
+                            $session['user']['first name'] $session['user']['last name']</h4>
+                    </div>
+
+                </div>
+            </div>
+            <div class="gvsFixTab" style="width:89%">
+                <div class="tab bg-info">
+                    <button class="tablinks">&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </button>
+                  <button class="tablinks" id="defaultOpen" onclick="openTab(event, 'Timeline')">Timeline</button>
+                  <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+                  <button class="tablinks" onclick="openTab(event, 'Photos')">Photos</button>
+                </div>
+
+                <div id="Timeline" class="tabcontent">
+                    <hr>
+                  <strong><h5>My Posts</h5></strong>
+                    <hr>
+                    $for post in all_posts:
+                        <div class="card" style="max-width : 60%;">
+                        <div class="card-header">
+                            <img src="$post['user']['avatar']" class="rounded-circle" style="width: 50;height: auto;display:inline-block;">
+                            <strong>$post['user']['first name'] $post['user']['last name']</strong>
+                            <strong>__<sub>$post['timestamp']</sub></strong>
+                        </div>
+                        <div class="card-body">$post['content']</div>
+                        <div class="card-footer ml-auto bg-white gvsHover">
+                            <strong id="$post['_id']">$post['like']</strong>
+                            <i onclick="doMeAFavour('$post['_id']');" class="far fa-thumbs-up fa-2x"></i>&nbsp;&nbsp;
+                            <i onclick="alert('you want to comment');" class="far fa-comment fa-2x"></i>&nbsp;&nbsp;
+                            <i onclick="alert('you want to share');" class="far fa-share-square fa-2x"></i>&nbsp;&nbsp;
+                        </div>
+                        </div><br>
+                </div>
+
+                <div id="About" class="tabcontent">
+                    <hr>
+                    <h5><i class="fas fa-user"></i>&nbsp;&nbsp;About</h5>
+                    <hr>
+                    <div class="tabAbout bg-info">
+                      <button class="tablinksAbout" id="defaultOpenAbout" onclick="openTabAbout(event, 'details')">Details</button>
+                      <button class="tablinksAbout" onclick="openTabAbout(event, 'education')">Work and Education</button>
+                      <button class="tablinksAbout" onclick="openTabAbout(event, 'anime')">Anime Overview</button>
+                    </div>
+
+                    <div id="details" class="tabcontentAbout">
+                        <br>
+                        <em>Favorite Quote</em>
+                        <hr>
+                      <p>$user['User Info']['favQuote']</p>
+                    </div>
+
+                    <div id="education" class="tabcontentAbout">
+                        <br>
+                        <em>Work</em>
+                        <hr>
+                        <p>$user['User Info']['work']</p>
+                        <br>
+                        <em>Education</em>
+                        <hr>
+                        <p>$user['User Info']['education']</p>
+                    </div>
+
+                    <div id="anime" class="tabcontentAbout">
+                        <br>
+                        <em>Anime Count</em>
+                        <hr>
+                        <h3>$user['User Info']['animeCount']</h3>
+                        <hr>
+                        <em>Currently Watching Series</em>
+                        <hr>
+                        <!--<ol>-->
+                            <!--<li>One Piece</li>-->
+                            <!--<li>Boruto: Naruro Next Generation</li>-->
+                            <!--<li>My Hero Acadmia season 3</li>-->
+                        <!--</ol>-->
+                        <p>$user['User Info']['currentAnime']</p>
+                    </div>
+                    <p>&nbsp;</p>
+                </div>
+
+                <div id="Photos" class="tabcontent"><br>
+                    <h3>My uploaded photos</h3>
+                    <hr>
+                    <br>
+                    <em><h5>Avatar</h5></em><br>
+                    <form id="avatar-upload" method="POST" enctype="multipart/form-data" action="/upload-image/avatar">
+                        <input type="file" name="avatar" class="" />
+                        <button type="submit" class="btn btn-dark btn-md">Save</button>
+                    </form><br>
+                    <em><h5>Cover</h5></em><br>
+                    <form id="background-upload" method="POST" enctype="multipart/form-data" action="/upload-image/background">
+                        <input type="file" name="background" class=""/>
+                        <button type="submit" class="btn btn-dark btn-md">Save</button>
+                    </form><br>
+                </div>
+            </div>
+            <script>
+            document.getElementById("defaultOpen").click();
+            document.getElementById("defaultOpenAbout").click();
+            function openTab(evt, tabId) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(tabId).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+
+            function openTabAbout(evt, tabId) {
+                var i, tabcontentAbout, tablinks;
+                tabcontentAbout = document.getElementsByClassName("tabcontentAbout");
+                for (i = 0; i < tabcontentAbout.length; i++) {
+                    tabcontentAbout[i].style.display = "none";
+                }
+                tablinksAbout = document.getElementsByClassName("tablinksAbout");
+                for (i = 0; i < tablinksAbout.length; i++) {
+                    tablinksAbout[i].className = tablinksAbout[i].className.replace(" active", "");
+                }
+                document.getElementById(tabId).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+            </script>
+        </div>
+</div>

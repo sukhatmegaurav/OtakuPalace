@@ -1,0 +1,98 @@
+$if session['user'] == None:
+    <br><br><br><br>
+    <h1>You Must be Logged in First</h1>
+$else:
+    <br><br><br>
+    <div class="tabSettings bg-white">
+        <button style="align-items: center;display: flex;" class="tablinksSettings" id="defaultOpenSettings" onclick="openTabSettings(event, 'general')">
+            <i class="fas fa-fingerprint fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;General</button>
+        <button style="align-items: center;display: flex;" class="tablinksSettings" onclick="openTabSettings(event, 'privacy')">
+            <i class="fas fa-user-secret fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;Privacy</button>
+        <button style="align-items: center;display: flex;" class="tablinksSettings" onclick="openTabSettings(event, 'security')">
+            <i class="fas fa-lock fa-2x"></i>&nbsp;&nbsp;Security</button>
+        <button style="align-items: center;display: flex;" class="tablinksSettings" onclick="openTabSettings(event, 'notifications')">
+            <i class="far fa-bell fa-2x"></i>&nbsp;&nbsp;Notifications</button>
+        <button style="align-items: center;display: flex;" class="tablinksSettings" onclick="openTabSettings(event, 'apps')">
+            <i class="fab fa-app-store-ios fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;Apps</button>
+        <button style="align-items: center;display: flex;" class="tablinksSettings" onclick="openTabSettings(event, 'language')">
+            <i class="fas fa-language fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;Language</button>
+    </div>
+
+    <div id="general" class="tabcontentSettings">
+        <form id="userInfoForm">
+            <br>
+            <em><i class="fas fa-pencil-alt"></i>&nbsp;Favorite Quote</em>
+            <hr>
+            <textarea name="favQuote" id="favQuote" class="form-control custom-control" rows="4" style="resize:none" placeholder="What's your?"></textarea>
+            <hr>
+            <em>Work and Education</em>
+            <hr>
+            <div class="md-form">
+                <i class="fas fa-briefcase prefix"></i>
+                <input type="text" id="work" name="work" class="form-control">
+                <label for="work">Where do you Work?</label>
+            </div>
+            <div class="md-form">
+                <i class="fas fa-graduation-cap prefix"></i>
+                <input type="text" id="education" name="education" class="form-control">
+                <label for="education">How educated are you?</label>
+            </div>
+            <hr>
+            <em>Anime Overview</em>
+            <hr>
+            <div class="md-form">
+                <i class="far fa-grin-hearts prefix"></i>
+                <input type="number" id="animeCount" name="animeCount" class="form-control">
+                <label for="animeCount">How many anime have you watched?</label>
+            </div>
+            <div class="md-form">
+                <i class="far fa-calendar-check prefix"></i>
+                <input type="text" id="currentAnime" name="currentAnime" class="form-control">
+                <label for="currentAnime">What all animes are you currently watching?</label>
+            </div>
+            <button type="submit" class="btn btn-dark btn-md">Update Info</button>
+        </form>
+    </div>
+
+    <div id="privacy" class="tabcontentSettings">
+        <br>
+        <em>Privacy Goes here</em>
+        <hr>
+    </div>
+
+    <div id="security" class="tabcontentSettings">
+        <br>
+        <em>Security Comes Here</em>
+        <hr>
+    </div>
+    <div id="notifications" class="tabcontentSettings">
+        <br>
+        <em>Notifications Comes Here</em>
+        <hr>
+    </div>
+    <div id="apps" class="tabcontentSettings">
+        <br>
+        <em>Apps Comes Here</em>
+        <hr>
+    </div>
+    <div id="language" class="tabcontentSettings">
+        <br>
+        <em>Language Comes Here</em>
+        <hr>
+    </div>
+    <script>
+        document.getElementById("defaultOpenSettings").click();
+        function openTabSettings(evt, tabId) {
+            var i, tabcontentSettings, tablinks;
+            tabcontentSettings = document.getElementsByClassName("tabcontentSettings");
+            for (i = 0; i < tabcontentSettings.length; i++) {
+                tabcontentSettings[i].style.display = "none";
+            }
+            tablinksSettings = document.getElementsByClassName("tablinksSettings");
+            for (i = 0; i < tablinksSettings.length; i++) {
+                tablinksSettings[i].className = tablinksSettings[i].className.replace(" active", "");
+            }
+            document.getElementById(tabId).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
