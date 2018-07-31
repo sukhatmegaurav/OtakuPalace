@@ -14,7 +14,8 @@ class RegisterModal:
 
         id = self.Users.insert({"username": data.username, "first name": data.first_name,
                                 "last name": data.last_name, "email": data.email,
-                                "password": hashed_pass, "avatar": "", "background": "",
+                                "password": hashed_pass, "avatar": "/static/css/images/otakuicon.jpg",
+                                "background": "/static/css/images/defaultcov.jpg",
                                 "User Info": {"favQuote": "", "education": "", "animeCount": 0, "currentAnime": "",
                                               "work": ""}})
         print("uid is", id)

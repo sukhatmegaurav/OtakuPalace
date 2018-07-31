@@ -72,21 +72,48 @@ $def with (all_posts, user)
                     <hr>
                   <strong><h5>My Posts</h5></strong>
                     <hr>
-                    $for post in all_posts:
+                    $for count, post in enumerate(all_posts, start=1):
                         <div class="card" style="max-width : 60%;">
-                        <div class="card-header">
-                            <img src="$post['user']['avatar']" class="rounded-circle" style="width: 50;height: auto;display:inline-block;">
-                            <strong>$post['user']['first name'] $post['user']['last name']</strong>
-                            <strong>__<sub>$post['timestamp']</sub></strong>
-                        </div>
-                        <div class="card-body">$post['content']</div>
-                        <div class="card-footer ml-auto bg-white gvsHover">
-                            <strong id="$post['_id']">$post['like']</strong>
-                            <i onclick="doMeAFavour('$post['_id']');" class="far fa-thumbs-up fa-2x"></i>&nbsp;&nbsp;
-                            <i onclick="alert('you want to comment');" class="far fa-comment fa-2x"></i>&nbsp;&nbsp;
-                            <i onclick="alert('you want to share');" class="far fa-share-square fa-2x"></i>&nbsp;&nbsp;
-                        </div>
-                        </div><br>
+                            <div class="card-header bg-info" style="border:none;">
+                                <img src="$post['user']['avatar']" class="rounded-circle" alt="" style="width: 50;height: auto;display:inline-block;">
+                                <strong>$post['user']['first name'] $post['user']['last name']</strong>
+                                <strong>__<sub>$post['timestamp']</sub></strong>
+                            </div>
+                            <div class="card-body">$post['content']</div>
+                            <div class="card-footer ml-auto bg-white gvsHover" style="border:none;">
+                                <strong id="$post['_id']">$post['like']</strong>
+                                <i onclick="increaseLikes('$post['_id']');" class="far fa-thumbs-up fa-2x"></i>&nbsp;&nbsp;
+                                <i onclick="doMeAFavour('comment$count');" class="far fa-comment fa-2x"></i>&nbsp;&nbsp;
+                                <i onclick="alert('you want to share');" class="far fa-share-square fa-2x"></i>&nbsp;&nbsp;
+                            </div>
+                            $if post['comments']:
+                                <em>&nbsp;Comments</em>
+                            $for comment in post['comments']:
+                                <hr>
+                                <div class="card" style="max-width: 100%;margin-left:10px;margin-right:10px;" >
+                                <div class="card-header bg-white" style="border:none;">
+                                    <img src="$comment['user']['avatar']" class="rounded-circle" style="max-width: 10%;height: auto;">
+                                    <strong>$comment['user']['first name'] $comment['user']['last name']</strong>
+                                    <strong>__<sub>$comment['timestamp']</sub></strong>
+                                </div>
+                                <div class="card-body">$comment['comment_text']</div>
+                                <div class="card-footer ml-auto bg-white" style="border:none;">
+                                    <strong id="">0</strong>
+                                    <i onclick="" class="far fa-thumbs-up"></i>
+                                </div>
+                                </div>
+
+                            <form id="comment$count" class="exampleWrapper" style="margin-left:10px;margin-right:10px;display:none;">
+                                <hr>
+                                <div class="input-group">
+                                  <textarea name="comment" class="form-control custom-control" rows="2" style="resize:none;" placeholder="Write a Comment."></textarea>
+                                    <input name="postID" value="$post['_id']" style="display:none;">
+                                  <button type="submit" onclick="addComment('comment$count')" class="btn btn-primary btn-md" style="">
+                                    Comment
+                                  </button>
+                                </div>
+                            </form>
+                </div><br>
                 </div>
 
                 <div id="About" class="tabcontent">

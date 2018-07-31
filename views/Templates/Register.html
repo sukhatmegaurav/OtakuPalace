@@ -1,50 +1,55 @@
-<div class="container">
-    <h2>Register Account</h2>
-    <br><br>
-    <!-- Material form row -->
-    <form id="registerForm">
-        <!-- Grid row -->
-        <div class="form-row">
-            <!-- Grid column -->
-            <div class="col">
-                <!-- Material input -->
-                <div class="md-form">
-                    <input name="first_name" type="text" class="form-control" placeholder="First name">
-                </div>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col">
-                <!-- Material input -->
-                <div class="md-form">
-                    <input name="last_name" type="text" class="form-control" placeholder="Last name">
-                </div>
-            </div>
-            <!-- Grid column -->
-        </div>
-        <!-- Grid row -->
-
+<div class="background-image" style="background:url('static/css/images/otaku_register.jpg');height: 100%;
+background-position: center;background-repeat: no-repeat;background-size: cover;color:white;
+">
+    <div style="margin-left:3%;">
+        <h2>Register Account</h2>
+        <br><br>
         <!-- Material form row -->
+        <form id="registerForm">
+            <!-- Grid row -->
+            <div class="form-row">
+                <!-- Grid column -->
+                <div class="col-3">
+                    <!-- Material input -->
+                    <div class="md-form">
+                        <input name="first_name" type="text" class="form-control" placeholder="First name">
+                    </div>
+                </div>
+                <!-- Grid column -->
 
-        <div class="md-form">
-            <i class="fa fa-user prefix"></i>
-            <input mdbInputDirective type="text" name="username" id="username" class="form-control">
-            <label for="username" >Create Username</label>
-        </div><br>
-        <!-- Material input -->
-        <div class="md-form">
-            <i class="fa fa-envelope prefix"></i>
-            <input type="text" id="email" name="email" class="form-control">
-            <label for="email">Enter a valid E-mail address</label>
-        </div><br>
-        <!-- Material input -->
-        <div class="md-form">
-            <i class="fa fa-lock prefix"></i>
-            <input type="password" name="password" id="password" class="form-control validate">
-            <label for="password" data-error="wrong" data-success="right">Create Password</label>
-        </div><br>
-        <button type="submit" class="btn btn-dark btn-md">Create Account</button>
-    </form>
+                <!-- Grid column -->
+                <div class="col-3">
+                    <!-- Material input -->
+                    <div class="md-form">
+                        <input name="last_name" type="text" class="form-control" placeholder="Last name">
+                    </div>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
 
+            <!-- Material form row -->
+            <div style="color:black;" class=" col-3">
+                <div class="md-form">
+                    <i class="fa fa-user prefix"></i>
+                    <input type="text" name="username" id="username" class="form-control">
+                    <label for="username" >Create Username</label>
+                </div><br>
+                <!-- Material input -->
+                <div class="md-form">
+                    <i class="fa fa-envelope prefix"></i>
+                    <input type="text" id="email" name="email" class="form-control">
+                    <label for="email">Enter a valid E-mail address</label>
+                </div><br>
+                <!-- Material input -->
+                <div class="md-form">
+                    <i class="fa fa-lock prefix"></i>
+                    <input type="password" name="password" id="password" class="form-control validate">
+                    <label for="password" data-error="wrong" data-success="right">Create Password</label>
+                </div><br>
+            </div>
+            <button type="submit" class="btn btn-dark btn-md">Create Account</button>
+        </form>
+
+    </div>
 </div>

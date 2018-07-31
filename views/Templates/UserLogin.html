@@ -1,21 +1,26 @@
-<div class="container">
-    <h2>Enter Credentials</h2>
-    <br><br>
+<div class="background-image" style="background:url('static/css/images/otaku_login.jpg');height: 100%;
+background-position: center;background-repeat: no-repeat;background-size: cover;color:white;
+">
+    <div style="margin-left:3%;">
+        <br><br><br><br>
 
-    <form id="loginForm">
-        <div class="md-form">
-            <i class="fa fa-user prefix"></i>
-            <input name="username" type="text" id="username" class="form-control">
-            <label for="username" >Enter Username</label>
-        </div><br>
-        <div class="md-form">
-            <i class="fa fa-lock prefix"></i>
-            <input name="password" type="password" id="password" class="form-control validate">
-            <label for="password" data-error="wrong" data-success="right">Type your password</label>
-        </div><br>
+        <form id="loginForm" class="form-inline">
+            <h2>Enter Credentials</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br><br>
+            <div class="md-form">
+                <i class="fa fa-user prefix"></i>
+                <input name="username" type="text" id="username" class="form-control">
+                <label for="username" style="color:white;">Enter Username</label>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="md-form">
+                <i class="fa fa-lock prefix"></i>
+                <input name="password" type="password" id="password" class="form-control validate">
+                <label for="password" data-error="wrong" data-success="right" style="color:white;">Type your password</label>
+            </div><br>&nbsp;&nbsp;&nbsp;&nbsp;
 
-        <button type="submit" class="btn btn-success btn-md">Sign In</button>
-    </form>
+            <button type="submit" class="btn btn-success btn-md">Sign In</button>
+        </form>
+    </div>
 </div>
 
     <!--if self.css:-->
