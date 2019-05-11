@@ -66,6 +66,7 @@ $(document).ready(function(){
     $(document).on("submit", "#userInfoForm", function(e){
         e.preventDefault();
         var form = $(this).serialize();
+        this.reset();
         $.ajax({
             url: '/generalSettingsInfo',
             type: 'POST',

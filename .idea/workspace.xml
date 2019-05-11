@@ -5,48 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bd67e65-321a-45d5-8e94-094f523f5f64" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/064204ba6f7cfba3a894504f14735c4cda41ca2d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/11d57117cadb6c5df16e49e36e7103f1b939f51c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/174558934f6b4b4d672e443861dee69f5bf86549" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/1cf64686fb366f9e3249f5536679c0a06fdadcad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/24ff87c1bc8bd0aca54996b8d799afc3c4a9720f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/26aa626d7a3dbc5682f70597cded448dec8bb781" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/295802817049198df9f26469cfbf8da3f588acd6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/297db6c708c24d866e4f8daf5b5f5de71ea924d6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/3363d1fdce6e89f09469b5f6e8c63cd7057e670a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/36e5fd6c7bae5f0a09c44eb509089d867726f68c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/3e26590169febdfc2f96d65a713b79d47f9702f1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/44805fb7234f7a469aec68e0b2488724b4c30b9b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/44ae40e0a413b681b0dc06b32565c52c21775a47" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/5101641d97e2314a6abd698ef31b3acf3e69523b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/59a701f737263636010efac68dab8fe358bd59c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/62e4df9e94dd2412f29856b53eee5ed0ad0207da" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/64b59bd45cfedb061b6067a9e1c5556e4a65df36" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/68cdd69ca2bd335d5740f4498957c7fc44b5d7d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/701d1229bb1e0c25605ecdeec097b05b4999b00e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/78e93d0d27ae634c48758f7d3e0da8aeba2b09de" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/827d97fa6a96ad82a4b5b04a5e5298330e7bb210" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/857fcc66b724e808a49772a70c0d04a85c6dbaa4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/8941d37334b8d194d622e07bedbe6fd2ec17a1c1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/8b403011f64a2315df09da1bea8eb01c2c86c664" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/8c42a10843247da0208c3c171cb0ec81b7cef71f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/939292332c9d58e97112d99145bfc9b76d0466b5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/9bebea415694c962d645abbb2eddb65f473a3101" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/a06f487d7f16a7974e6702c7fa12fbac54aae45d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/a1814e74d2d903ec469245844e4338f6fd140127" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/a2de996c4f0566dc90da0281bcbe697fc1c029a0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/a3aa4ec842beb76d95294a3229fb9f16153dff1d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/a3aa9edbb614d1bfa7eb2e638cf060e9ae675618" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/a6353ca256ef064a8fdc02b12e0cfc2eec75a461" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/a7319e3b2510c74ee52b4a386aba8f806cd3d5dc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/a80ca91bdd6ac16fb253c45c55c292cf100ce263" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/b411abc07afa9b47598097e7d944a850bea32df8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/befb6f54814f42a29f565c1621ca7446b2a2a60c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/bf11ef6c15b2341b4347993e3f134c6689755399" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/db1c60dee29d6910809a83c4a15045957923208e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/ded70c289eee83a50798e22fcd959ca6ced4d451" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/ef9cd4bf6fa0e4c0756da58d8b7721f070cef3ad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gvs_sessions/f8826da68dcdf29dd4cf8d414d2b500f36398b0e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/OtakuPalace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OtakuPalace.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/PostPostsModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/PostPostsModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/License.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/MDB-Free.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome-4.7.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fontawesome-free-5.1.0-web.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/myscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/myscript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/rippler-master.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +30,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/OtakuPalace$controller.coverage" NAME="controller Coverage Results" MODIFIED="1535553820120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OtakuPalaceOrg$controller.coverage" NAME="controller Coverage Results" MODIFIED="1557592437658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="330033964">
@@ -66,14 +41,32 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1347190235">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="75">
+              <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -91,155 +84,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/PostPostsModel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
-              <caret line="47" selection-start-line="47" selection-end-line="48" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/myscript.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-229">
-              <caret line="81" column="27" lean-forward="true" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Templates/Home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="54" column="58" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
-              <folding>
-                <element signature="e#221#227#0" expanded="true" />
-                <element signature="e#227#233#0" expanded="true" />
-                <element signature="e#399#405#0" expanded="true" />
-                <element signature="e#405#411#0" expanded="true" />
-                <element signature="e#578#584#0" expanded="true" />
-                <element signature="e#584#590#0" expanded="true" />
-                <element signature="e#740#746#0" expanded="true" />
-                <element signature="e#746#752#0" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#982#988#0" expanded="true" />
-                <element signature="e#988#994#0" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Templates/Register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Templates/UserLogin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Templates/MainLayout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4577">
+            <state relative-caret-position="450">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Templates/Profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2509">
-              <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
-              <folding>
-                <element signature="e#257#263#0" expanded="true" />
-                <element signature="e#263#269#0" expanded="true" />
-                <element signature="e#435#441#0" expanded="true" />
-                <element signature="e#441#447#0" expanded="true" />
-                <element signature="e#614#620#0" expanded="true" />
-                <element signature="e#620#626#0" expanded="true" />
-                <element signature="e#776#782#0" expanded="true" />
-                <element signature="e#782#788#0" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#1018#1024#0" expanded="true" />
-                <element signature="e#1024#1030#0" expanded="true" />
-                <element signature="e#1203#1209#0" expanded="true" />
-                <element signature="e#1209#1215#0" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#2666#2672#0" expanded="true" />
-                <element signature="e#2672#2678#0" expanded="true" />
-                <element signature="e#2678#2684#0" expanded="true" />
-                <element signature="e#2684#2690#0" expanded="true" />
-                <element signature="e#2741#2747#0" expanded="true" />
-                <element signature="e#2747#2753#0" expanded="true" />
-                <element signature="e#2753#2759#0" expanded="true" />
-                <element signature="e#2759#2765#0" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/UserLoginModel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -287,8 +135,6 @@
         <option value="$PROJECT_DIR$/static/css/sidebar.css" />
         <option value="$PROJECT_DIR$/views/Templates/posts.html" />
         <option value="$PROJECT_DIR$/views/Templates/Settings.html" />
-        <option value="$PROJECT_DIR$/static/js/myscript.js" />
-        <option value="$PROJECT_DIR$/models/PostPostsModel.py" />
         <option value="$PROJECT_DIR$/models/UserLoginModel.py" />
         <option value="$PROJECT_DIR$/views/Templates/Home.html" />
         <option value="$PROJECT_DIR$/models/RegisterModal.py" />
@@ -297,6 +143,8 @@
         <option value="$PROJECT_DIR$/views/Templates/UserLogin.html" />
         <option value="$PROJECT_DIR$/views/Templates/Profile.html" />
         <option value="$PROJECT_DIR$/controller.py" />
+        <option value="$PROJECT_DIR$/static/js/myscript.js" />
+        <option value="$PROJECT_DIR$/models/PostPostsModel.py" />
       </list>
     </option>
   </component>
@@ -307,10 +155,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="299" />
+    <option name="x" value="298" />
     <option name="y" value="474" />
-    <option name="width" value="1004" />
-    <option name="height" value="368" />
+    <option name="width" value="1005" />
+    <option name="height" value="369" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -388,14 +236,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15885022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294893" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
@@ -406,12 +252,14 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3294893" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.6672158" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3294893" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.58623296" />
+      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.49311742" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
@@ -474,41 +322,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/Python/Lib/site-packages/web/session.py">
+    <entry file="file://G:/Python/Lib/site-packages/web/session.py" />
+    <entry file="file://G:/Python/Lib/site-packages/web/webapi.py" />
+    <entry file="file://$PROJECT_DIR$/views/Templates/UserLogin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/Python/Lib/site-packages/web/webapi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/RegisterModal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="80" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/PostPostsModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" selection-start-line="47" selection-end-line="48" />
+        <state relative-caret-position="50">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Templates/MainLayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Templates/Profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+          <folding>
+            <element signature="e#257#263#0" expanded="true" />
+            <element signature="e#263#269#0" expanded="true" />
+            <element signature="e#435#441#0" expanded="true" />
+            <element signature="e#441#447#0" expanded="true" />
+            <element signature="e#614#620#0" expanded="true" />
+            <element signature="e#620#626#0" expanded="true" />
+            <element signature="e#776#782#0" expanded="true" />
+            <element signature="e#782#788#0" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#1018#1024#0" expanded="true" />
+            <element signature="e#1024#1030#0" expanded="true" />
+            <element signature="e#1203#1209#0" expanded="true" />
+            <element signature="e#1209#1215#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#2666#2672#0" expanded="true" />
+            <element signature="e#2672#2678#0" expanded="true" />
+            <element signature="e#2678#2684#0" expanded="true" />
+            <element signature="e#2684#2690#0" expanded="true" />
+            <element signature="e#2741#2747#0" expanded="true" />
+            <element signature="e#2747#2753#0" expanded="true" />
+            <element signature="e#2753#2759#0" expanded="true" />
+            <element signature="e#2759#2765#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/UserLoginModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/myscript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-229">
-          <caret line="81" column="27" lean-forward="true" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+        <state relative-caret-position="250">
+          <caret line="69" column="2" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -558,85 +452,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Templates/UserLogin.html">
+    <entry file="file://$PROJECT_DIR$/models/PostPostsModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="96">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Templates/MainLayout.html">
+    <entry file="file://$PROJECT_DIR$/models/RegisterModal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4577">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Templates/Profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2509">
-          <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
-          <folding>
-            <element signature="e#257#263#0" expanded="true" />
-            <element signature="e#263#269#0" expanded="true" />
-            <element signature="e#435#441#0" expanded="true" />
-            <element signature="e#441#447#0" expanded="true" />
-            <element signature="e#614#620#0" expanded="true" />
-            <element signature="e#620#626#0" expanded="true" />
-            <element signature="e#776#782#0" expanded="true" />
-            <element signature="e#782#788#0" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#1018#1024#0" expanded="true" />
-            <element signature="e#1024#1030#0" expanded="true" />
-            <element signature="e#1203#1209#0" expanded="true" />
-            <element signature="e#1209#1215#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#2666#2672#0" expanded="true" />
-            <element signature="e#2672#2678#0" expanded="true" />
-            <element signature="e#2678#2684#0" expanded="true" />
-            <element signature="e#2684#2690#0" expanded="true" />
-            <element signature="e#2741#2747#0" expanded="true" />
-            <element signature="e#2747#2753#0" expanded="true" />
-            <element signature="e#2753#2759#0" expanded="true" />
-            <element signature="e#2759#2765#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/UserLoginModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="352">
+          <caret line="17" column="80" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="75">
+          <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

@@ -31,10 +31,10 @@ render = web.template.render("views/Templates", base="MainLayout", globals={'ses
 # Classes/Routes
 class Home:
     def GET(self):
-        data = type('obj', (object,), {"username": "anushka_AA", "password": "anushka"})
-        is_correct = UserLoginModel.UserLoginModel().verify_credentials(data)
-        if is_correct:
-            session_data["user"] = is_correct
+        # data = type('obj', (object,), {"username": "anushka_AA", "password": "anushka"})
+        # is_correct = UserLoginModel.UserLoginModel().verify_credentials(data)
+        # if is_correct:
+        #     session_data["user"] = is_correct
 
         all_posts = PostPostsModel.PostPostsModel().get_all_posts()
 
@@ -62,10 +62,10 @@ class Logout:
 
 class MyProfile:
     def GET(self):
-        data = type('obj', (object,), {"username": "anushka_AA", "password": "anushka"})
-        is_correct = UserLoginModel.UserLoginModel().verify_credentials(data)
-        if is_correct:
-            session_data["user"] = is_correct
+        # data = type('obj', (object,), {"username": "anushka_AA", "password": "anushka"})
+        # is_correct = UserLoginModel.UserLoginModel().verify_credentials(data)
+        # if is_correct:
+        #     session_data["user"] = is_correct
 
         all_posts = PostPostsModel.PostPostsModel().get_user_posts(session_data['user']['username'])
 
@@ -76,10 +76,10 @@ class MyProfile:
 
 class AccSettings:
     def GET(self):
-        data = type('obj', (object,), {"username": "anushka_AA", "password": "anushka"})
-        is_correct = UserLoginModel.UserLoginModel().verify_credentials(data)
-        if is_correct:
-            session_data["user"] = is_correct
+        # data = type('obj', (object,), {"username": "anushka_AA", "password": "anushka"})
+        # is_correct = UserLoginModel.UserLoginModel().verify_credentials(data)
+        # if is_correct:
+        #     session_data["user"] = is_correct
         return render.Settings()
 
 
